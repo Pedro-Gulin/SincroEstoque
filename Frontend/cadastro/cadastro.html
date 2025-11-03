@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>SincroEstoque - Cadastro de Produtos</title>
+    <link rel="stylesheet" href="cadastro.css">
+</head>
+
+<body>
+    <header class="container-head">
+        <div class="logo-header-container">
+            <a href="../home/home.html"><img src="../imagens/sincroestoque_logo.png" alt="SincroEstoque Logo"></a>
+            <h1>SincroEstoque - Controle de Estoque</h1>
+        </div>
+
+        <div class="listagem">
+            <a href="../listagem/listar_produtos.html">
+                <p>Listar produtos</p>
+            </a>
+            <a href="../cadastro/cadastro.html">
+                <p>Cadastrar produto</p>
+            </a>
+            <a href="../editar/editar.html">
+                <p>Editar produto</p>
+            </a>
+            <a href="../remover/remover.html">
+                <p>Remover produto</p>
+            </a>
+        </div>
+    </header>
+
+    <main class="corpao">
+        <h1>Cadastrar Novo Produto</h1>
+
+        <form class="form-produto">
+            <div class="campo">
+                <label for="id">ID do Produto</label>
+                <input type="text" id="id" name="id" placeholder="Ex: 005">
+            </div>
+
+            <div class="campo">
+                <label for="nome">Nome do Produto</label>
+                <input type="text" id="nome" name="nome" placeholder="Ex: Headset Gamer RGB">
+            </div>
+
+            <div class="campo">
+                <label for="categoria">Categoria</label>
+                <input type="text" id="categoria" name="categoria" placeholder="Ex: Periféricos">
+            </div>
+
+            <div class="campo-duplo">
+                <div class="campo">
+                    <label for="preco">Preço (R$)</label>
+                    <input type="number" id="preco" name="preco" step="0.01" placeholder="Ex: 349.90">
+                </div>
+
+                <div class="campo">
+                    <label for="quantidade">Quantidade</label>
+                    <input type="number" id="quantidade" name="quantidade" placeholder="Ex: 20">
+                </div>
+            </div>
+
+            <div class="campo">
+                <label for="status">Status</label>
+                <select id="status" name="status">
+                    <option value="">Selecione...</option>
+                    <option value="disponivel">Disponível</option>
+                    <option value="baixo">Baixo estoque</option>
+                    <option value="indisponivel">Indisponível</option>
+                </select>
+            </div>
+
+            <button type="submit" class="btn-cadastrar">Cadastrar Produto</button>
+        </form>
+    </main>
+
+    <footer class="footer">
+        <p>Saiba mais: (41)99999-7767</p>
+        <p>Email: estoque@company.com</p>
+        <p>Endereço: Rua PUC 123, Curitiba - PR</p>
+        <p>Horário de funcionamento: 09:00-12:00 | 13:00 - 18:00</p>
+    </footer>
+</body>
+
+</html>

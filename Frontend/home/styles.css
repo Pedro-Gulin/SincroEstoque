@@ -1,0 +1,114 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+.container-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 15px 30px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    height: 100px;
+}
+
+.logo-header-container {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.logo-header-container img {
+    height: 120px;
+    width: 120px;
+}
+
+.listagem {
+    display: flex;
+    gap: 25px;
+}
+
+.listagem a {
+    text-decoration: none;
+    color: #444;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.listagem a:hover {
+    color: #007bff;
+}
+
+.corpao {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    gap: 50px;
+    padding: 0 20px;
+}
+
+.corpao h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.itens {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    width: 100%;
+    justify-content: center;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+.empresa {
+    width: 500px;
+    height: 400px;
+    background-color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+    line-height: 1.6;
+    font-weight: lighter;
+    padding: 25px;
+    border: 1px solid #ddd;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+    align-self: flex-start;
+}
+
+.empresa p {
+    margin: 0;
+}
+
+.pessoas1 {
+    height: 450px;
+}
+
+.pessoas1 img{
+    width: 600px;
+    height: 450px;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-top: 1px solid #eee;
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    font-size: 14px;
+    gap: 5px;
+}
+
+.footer p {
+    margin: 0;
+}
